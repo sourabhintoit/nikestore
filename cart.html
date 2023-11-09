@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="Nikeholic.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="Nikeholic.html"><img src="logo.png" alt="NIKE"></a>
+                <h1>Nikeholic</h1>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="menu">
+                <li><a href="Nikeholic.html" class="">Home</a></li>
+                <li><a href="#product" class="">Product</a></li>
+                <li><a href="#about-us" class="">About</a></li>
+                <li><a href="#contactus" class="">Contact Us</a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href="signinpage.html"><i class="fas fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="cart-item">
+            <img src="./media/1.png" alt="Product 1">
+            <div class="item-details">
+                <h2>Nike Air</h2>
+                <p>Price: $69.00</p>
+                <p>Quantity: 2</p>
+            </div>
+            <div class="item-actions">
+                <button class="remove-button">Remove</button>
+            </div>
+        </div>
+        <div class="cart-item">
+            <img src="./media/11.webp" alt="Product 2">
+            <div class="item-details">
+                <h2>Nike Air</h2>
+                <p>Price: $69.00</p>
+                <p>Quantity: 1</p>
+            </div>
+            <div class="item-actions">
+                <button class="remove-button">Remove</button>
+            </div>
+        </div>
+        <!-- Add more cart items here -->
+    </main>
+    <footer>
+        <div class="cart-summary">
+            <p>Total Items: 2</p>
+            <p>Total Price: $138.00</p>
+        </div>
+        <button class="checkout-button">Proceed to Checkout</button>
+    </footer>
+</body>
+
+</html>
