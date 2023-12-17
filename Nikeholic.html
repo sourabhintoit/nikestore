@@ -9,28 +9,57 @@
     <link rel="stylesheet" href="Nikeholic.css">
     <script src="Nikeholic.js" defer></script>
     <title>Nikeholic</title>
+
+    <!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
     <!-- Navbar -->
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="Nikeholic.html"><img src="logo.png" alt="NIKE"></a>
-                <h1>Nikeholic</h1>
-            </div>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-            <ul class="menu">
-                <li><a href="Nikeholic.html" class="">Home</a></li>
-                <li><a href="#product" class="">Product</a></li>
-                <li><a href="#about-us" class="">About</a></li>
-                <li><a href="#contactus1" class="">Contact Us</a></li>
-                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
-                <li><a href="signinpage.html"><i class="fas fa-user"></i></a></li>
-            </ul>
-        </nav>
+        <!-- Replace your existing Navbar with Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="Nikeholic.html">
+        <img src="logo.png" alt="NIKE" width="30" height="30" class="d-inline-block align-top">
+        Nikeholic
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="Nikeholic.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about-us">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contactus1">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="signinpage.html">
+                    <i class="fas fa-user"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
     </header>
     <section>
         <div class="intro-header">
