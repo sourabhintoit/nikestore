@@ -23,3 +23,22 @@ function validateForm() {
         document.getElementById("contact-form").submit();
     }
 };
+
+
+document.getElementById('myButton').addEventListener('click', function() {
+    // Your code here
+});
+
+
+$('#myButton').on('click', function() {
+    // Your code here
+});
+
+
+// Sample data
+var itemsToSave = ['item1', 'item2', 'item3', 'item4', 'item5', 'item6', 'item7', 'item8', 'item9', 'item10'];
+
+// Save to local storage
+$.each(itemsToSave, function(index, item) {
+    localStorage.setItem('item_' + index, item);
+});
